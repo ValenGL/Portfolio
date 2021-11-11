@@ -17,6 +17,17 @@ a {
   text-decoration: underline;
 }
 
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #046c43;
+}
+
+::selection {
+  color: white;
+  background: #046c43;
+}
+
 .body-bg {
   z-index: -999;
   position: fixed;

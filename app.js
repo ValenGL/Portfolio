@@ -1,4 +1,6 @@
 mybutton = document.getElementById("myBtn");
+cvSp = document.getElementById("cvSp");
+cvEn = document.getElementById("cvEn");
 
 window.onscroll = function () {
   scrollFunction();
@@ -17,4 +19,8 @@ function scrollFunction() {
 
 function topFunction() {
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+function onDownload() {
+  alert("¡Gracias por interesarte en mi perfil!\n Mi CV se esta descargando.");
 }
